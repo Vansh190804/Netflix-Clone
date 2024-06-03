@@ -1,0 +1,610 @@
+* {
+      padding: 0;
+      margin: 0;
+}
+
+body {
+      background-color: black;
+      width: 100%;
+}
+
+main {
+      background: url('https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpg') no-repeat center center;
+      background-size: max(1300px, 100vw);
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-bottom: 8px solid rgb(37, 37, 37);
+}
+
+.page1 {
+      display: flex;
+      flex-direction: column;
+}
+
+main .box {
+      width: 100%;
+      height: 90vh;
+      background-color: rgba(0, 0, 0, 0.66);
+}
+
+nav {
+      display: flex;
+      width: 80vw;
+      margin: auto;
+      justify-content: space-between;
+      flex-direction: row;
+}
+
+.nav_options{
+      position: relative;
+}
+
+.icon {
+      color: white;
+      position: absolute;
+      left: 10px;
+      top: 30px;
+}
+
+.lang {
+      height: 30px;
+      margin: 25px 1px;
+      background-color: rgba(0, 0, 0, 0.44);
+      border: 0.1px solid rgba(255, 255, 255, 0.512);
+      border-radius: 3px;
+      color: white;
+      padding: 0px 14px 0px 37px;
+      font-size: 17px;
+}
+
+.sign {
+      height: 31px;
+      width: 75px;
+      margin: 25px 20px;
+      background-color: rgb(229, 9, 20);
+      color: white;
+      border: 2px solid rgb(229, 9, 20);
+      border-radius: 3px;
+      font-weight: bold;
+      font-size: 13px;
+}
+
+.front {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      height: 80vh;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap
+}
+
+.heading {
+      font-size: 3rem;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      padding: 10px;
+}
+
+.join {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.ready {
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.start {
+      height: 50px;
+      width: 290px;
+      margin: 25px 1.5px;
+      background-color: rgba(0, 0, 0, 0.44);
+      border: 0.1px solid rgba(255, 255, 255, 0.512);
+      border-radius: 3px;
+      color: white;
+      padding: 0px 52px 0px 20px;
+      font-size: 17px;
+}
+
+.get {
+      height: 51px;
+      width: 200px;
+      margin: 25px 1.5px;
+      background-color: rgb(229, 9, 20);
+      border: 2px solid rgb(229, 9, 20);
+      border-radius: 3px;
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 700;
+}
+
+.page2 {
+      height: 75vh;
+      width: 100%;
+      color: white;
+      border-bottom: 8px solid rgb(37, 37, 37);
+}
+
+.content2 {
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: flex-start;
+      margin: auto;
+      width: 70vw;
+      height: 75vh;
+}
+
+.page2_image {
+      position: relative;
+}
+
+.tv {
+      z-index: 10;
+      width: 550px;
+}
+
+.tvvid {
+      z-index: -1;
+      position: absolute;
+      top: 90px;
+      right: 0;
+      width: 525px;
+
+}
+
+
+.text {
+      display: flex;
+      flex-direction: column;
+      width: 40vw;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      justify-content: center;
+      font-size: 1.5rem;
+      font-weight: 450;
+      margin: 10px;
+}
+
+#line {
+      font-weight: 800;
+      padding: 0px 0px 10px 0px;
+}
+
+.page3 {
+      height: 75vh;
+      width: 100%;
+      border-bottom: 8px solid rgb(37, 37, 37);
+}
+
+.content3 {
+      display: flex;
+      color: white;
+      height: 75vh;
+      width: 90vw;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+}
+
+.page3_image{
+      position: relative;
+}
+
+.page3_image .mobile{
+     position: absolute;
+     top: 280px;
+     left: 110px;
+}
+
+.mobile {
+      color: white;
+      height: 100px;
+      width: 350px;
+      border: 1px solid grey;
+      border-radius: 10px;
+      background-color: black;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+      bottom: 190px;
+      left: 280px;
+
+}
+
+.st {
+      display: flex;
+      flex-direction: column;
+      width: 220px;
+      justify-content: flex-start;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 1.2rem;
+}
+
+.text2 {
+      display: flex;
+      width: 40vw;
+      flex-direction: column;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 1.5rem;
+      font-weight: 450;
+}
+
+#line0 {
+      font-weight: 800;
+      padding: 0px 0px 10px 0px;
+}
+
+.mobile .st p {
+      color: blue;
+      font-size: 1rem;
+      font-weight: 900;
+}
+
+.page4 {
+      height: 75vh;
+      width: 100%;
+      border-bottom: 8px solid rgb(37, 37, 37);
+}
+
+.content4 {
+      display: flex;
+      color: white;
+      height: 75vh;
+      width: 90vw;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+}
+
+.page4_image{
+      position: relative;
+}
+
+.page4_image img{
+      z-index: 10;
+}
+
+.sg {
+      z-index: -1;
+      position: absolute;
+      right: 130px;
+      top: 40px;
+}
+
+.text4 {
+      display: flex;
+      width: 40vw;
+      flex-direction: column;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 1.5rem;
+      font-weight: 450;
+}
+
+.text4 h1 {
+      font-weight: 800;
+      padding: 0px 0px 10px 0px;
+}
+
+.text4 p {
+      width: 35vw;
+}
+
+
+.page5 {
+      display: flex;
+      flex-direction: row;
+      height: 75vh;
+      width: 100%;
+      color: white;
+      border-bottom: 8px solid rgb(37, 37, 37);
+      justify-content: center;
+      align-items: center;
+}
+
+.text5 {
+      display: flex;
+      width: 40vw;
+      flex-direction: column;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+      font-size: 1.5rem;
+      font-weight: 450;
+}
+
+.text5 h1 {
+      font-weight: 800;
+      padding: 0px 0px 10px 0px;
+}
+
+
+.page6 {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-bottom: 8px solid rgb(37, 37, 37);
+      padding: 50px 0px 50px 0px;
+}
+
+.page6 h1 {
+      padding-bottom: 30px;
+      font-size: 3rem;
+      font-weight: 900;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.boxes {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+}
+
+.boxes .box {
+      width: 75vw;
+      height: 11vh;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      background-color: rgba(72, 72, 72, 0.599);
+      justify-content: space-between;
+}
+
+.boxes .box p {
+      margin-left: 30px;
+      font-size: 1.5rem;
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.boxes .box h5 {
+      font-weight: 50;
+      font-size: 3.5rem;
+      margin: 10px 30px 0px 0px;
+}
+
+.page7 {
+      color: rgba(255, 255, 255, 0.7);
+      margin: 70px 0px 0px 180px;
+}
+
+.end {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 30px;
+      font-size: 1rem;
+}
+
+.page7 p {
+      font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.end h4 {
+      padding-left: 10px;
+      font-weight: 100;
+      text-decoration: underline;
+}
+
+.grid {
+      text-decoration: underline;
+      font-size: 0.9rem;
+      display: grid;
+      grid-template-columns: repeat(4, 290px);
+      grid-template-rows: repeat(4, auto);
+      grid-gap: 1rem;
+}
+
+.svg {
+      filter: invert(1);
+      position: relative;
+      top: 2px;
+      left: -126px;
+}
+
+
+
+@media (max-width: 620px){
+      .heading{
+            font-size: 2rem;
+      }
+      .page7 {
+            width: 50vw;
+            margin: 50px auto;
+      }
+}
+
+
+@media (max-width: 1200px) {
+      .grid {
+            grid-template-columns: repeat(2, 200px);
+      }
+      
+}
+
+@media (max-width: 570px) {
+      .grid {
+            grid-template-columns: repeat(2, 150px);
+      }
+      
+}
+
+
+@media(max-width: 1200px) {
+      .front form{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+      }
+
+      .page2 {
+            height: 100vh;
+      }
+
+      .content2 {
+            flex-direction: column;
+            height: 90vh;
+            padding: 30px;
+      }
+
+      .tv {
+            margin-top: 100px;
+      }
+
+      .tvvid {
+            top: 190px;
+      }
+
+      .text {
+            width: 90vw;
+            text-align: center;
+            font-size: 1rem;
+      }
+
+      .page3 {
+            height: 100vh;
+      }
+
+      .content3 {
+            flex-direction: column-reverse;
+            height: 90vh;
+            padding-top: 20px;
+      }
+
+      .text2 {
+            width: 90vw;
+            text-align: center;
+            font-size: 1rem;
+      }
+
+      .mobile {
+            width: 350px;
+            height: 12vh;
+            z-index: 2;
+      }
+
+      .mobile .st1 {
+            height: 70px;
+      }
+
+      .page4 {
+            height: 100vh;
+      }
+
+      .content4 {
+            flex-direction: column;
+            height: 90vh;
+      }
+
+      .text3 {
+            width: 90vw;
+            text-align: center;
+            font-size: 1rem;
+      }
+
+
+
+      .page5 {
+            flex-direction: column-reverse;
+            height: 100vh;
+      }
+
+      .text4 {
+            width: 90vw;
+            text-align: center;
+            font-size: 1rem;
+            padding-bottom: 30px;
+      }
+
+      .text4 p {
+            width: 90vw;
+      }
+
+      .text5 {
+            width: 90vw;
+            text-align: center;
+            font-size: 1rem;
+      }
+
+      .boxes{
+            display: flex;
+            align-items: center;
+      }
+}
+
+@media (min-width: 960px) and (max-width: 1400px) {
+      .grid {
+            grid-template-columns: repeat(4, 200px);
+      }
+
+      .page7 {
+            width: 50vw;
+            margin: 50px 30px;
+      }
+}
+
+@media (min-width:1930px) {
+      .page7 {
+            width: 50vw;
+            margin: 70px auto;
+      }
+}
+
+
+@media (max-width: 525px){
+
+      .heading{
+            font-size: 1rem;
+      }
+
+      .start{
+            width: 200px;
+            height: 40px;
+      }
+
+      .get{
+            width: 150px;
+            height: 40px;
+            margin-bottom: 100px;
+      }
+
+      .tv{
+            width: 500px;
+      }
+
+      .st1{
+            width: 50px;
+       }
+
+      .mobile{
+            width: 310px;
+            left: 110px;
+      }
+
+      .page3_image > img{
+            width: 500px;
+      }
+      .page4_image img{
+            width: 500px;
+            height: 400px;
+      }
+
+      .sg{
+           width:  300px;
+           left: 90px;
+      }
+      
+}
